@@ -1,48 +1,46 @@
-# Astro Starter Kit: Basics
+# My Astro Template with Bun and Tailwind CSS
 
-```sh
-npm create astro@latest -- --template basics
+This is a basic project created with [Astro](https://astro.build/), [Bun](https://bun.sh/), and [Tailwind CSS](https://tailwindcss.com/). The template includes a simple design with Tailwind for styling and Bun as the package manager and development environment.
+
+## Technologies Used
+
+- [Astro](https://astro.build/): A modern framework for building fast, static websites and web applications.
+- [Bun](https://bun.sh/): A fast package manager, bundler, and development server.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for creating custom, responsive user interfaces.
+
+## Features
+
+- Basic project structure with Astro.
+- Tailwind CSS integration for fast and responsive styling.
+- Custom 404 error page.
+
+## Installation
+
+To get started with your own version of this template, follow the step below:
+
+### Create new astro project with this Github repository
+
+Create new astro project with this Github repository using:
+
+```bash
+bunx create-astro@latest astro-template --template amxterasus/astro-template
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. All contributions are welcome!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### **Explanation**:
+1. **Title and Description**: Describes the project and the technologies used.
+2. **Technologies**: Lists the main tools and frameworks used in the project (Astro, Bun, and Tailwind CSS).
+3. **Features**: Highlights the main features of the project.
+4. **Requirements**: Lists what users need to get started with the project.
+5. **Installation**: Describes how to clone and set up the project.
+6. **Development**: Explains how to run the project in development mode.
+7. **Build**: Instructions for building the project for production.
+8. **Contributing**: Explains how others can contribute to the project.
+9. **License**: Provides information about the license for the project (here, it mentions the MIT License, but you can change it if you use a different one).
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to modify or add more sections as per your project’s needs.
