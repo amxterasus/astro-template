@@ -26,11 +26,11 @@ Create new astro project with this Github repository using:
 bunx create-astro@latest astro-template --template amxterasus/astro-template
 ```
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. All contributions are welcome!
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ### **Explanation**:
 1. **Title and Description**: Describes the project and the technologies used.
